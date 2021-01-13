@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META CHARSET="UTF-8">
+<TITLE>郵便番号&住所</TITLE>
+<SCRIPT LANGUAGE="javascript" TYPE="text/javascript" SRC="ziptable.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript" TYPE="text/javascript">
+function zip2address()
+{
+  var input=prompt('郵便番号を入れてください');
+
+  for(var i=0;i<zipdb.length;i++)
+  {
+      if(zipdb[i].zip == input)
+      {
+           document.getElementById('kekka').innerHTML=zipdb[i].address;
+      }
+  }
+  return 0;
+}
+function address2zip()
+{
+  var input=prompt('住所を入れてください');
+  var ans='';
+  for(var i=0;i<zipdb.length;i++)
+  {
+      if(zipdb[i].address.match(input))
+      {
+           ans=ans+zipdb[i].zip+'='+zipdb[i].address+'<BR>';
+      }
+}
+  document.getElementById('kekka').innerHTML=ans;
+  return 0;
+}
+</SCRIPT>
+</HEAD>
+<BODY>
+<HR>
+<TABLE BORDER="1">
+<TR><TD><FONT onClick="zip2address()">「郵便番号⇒住所」</FONT></TD><TD><FONT onClick="address2zip()">「住所⇒郵便番号」</FONT></TD></TR>
+<TR><TD COLSPAN="2"><FONT ID="kekka">検索結果</FONT></TD></TR>
+</TABLE>
+<HR>
+<SCRIPT LANGUAGE="javascript" TYPE="text/javascript">
+document.write('<TABLE BORDER="1">');
+document.write('<TR><TH>郵便番号</TH><TH>住所</TH></TR>');
+for(var i=0;i<zipdb.length;i++)
+{
+   document.write('<TR><TD>'+zipdb[i].zip+'</TD><TD>'+zipdb[i].address+'</TD></TR>');
+}
+document.write('</TABLE>');
+</SCRIPT>
+</BODY>
+</HTML>
