@@ -1,3 +1,11 @@
+header{
+    width: 100px;
+    height: 480px;
+    background: url(0000.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .head_container{
     padding: 10px;
     display: flex;
