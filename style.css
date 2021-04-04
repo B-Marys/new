@@ -35,3 +35,7 @@ nav li{
     text-align: center;
     border-left: 1px dotted black;
 }
+
+.last_child[
+    border-right: 1px dotted black;
+}
