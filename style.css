@@ -71,3 +71,11 @@ nav li{
 .item02 li{
     border-bottom: 1px dotted black;
 }
+
+.article_item{
+    width: 47%;
+}
+
+.article_item img{
+    width: 99%;
+} 
