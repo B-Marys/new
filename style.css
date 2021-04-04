@@ -61,10 +61,12 @@ nav li{
 
 .item02 h2{
     font-size: 15px;
+    text-align: center;
 }
 
 .item02 ul{
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .item02 li{
