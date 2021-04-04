@@ -50,6 +50,19 @@ nav li{
     width:70%;
 }
 
+.item01 h2{
+    text-align: center;
+    border-bottom: 1px solid navy;
+}
+
 .item02{
     width:22%;
+}
+
+.item02 ul{
+    list-style-type: none;
+}
+
+.item02 li{
+    border-bottom: 1px dotted black;
 }
