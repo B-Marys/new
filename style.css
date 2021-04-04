@@ -59,6 +59,10 @@ nav li{
     width:22%;
 }
 
+.item02 h2{
+    font-size: 15px;
+}
+
 .item02 ul{
     list-style-type: none;
 }
