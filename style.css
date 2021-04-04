@@ -39,3 +39,17 @@ nav li{
 .last_child{
     border-right: 1px dotted black;
 }
+
+.container{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.item01{
+    width:70%;
+}
+
+.item02{
+    width:22%;
+}
