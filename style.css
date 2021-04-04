@@ -23,3 +23,9 @@ header ul{
 header ul li{
     display: inline-block;
 }
+
+nav li{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
