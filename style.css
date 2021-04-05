@@ -83,3 +83,7 @@ nav li{
 .article_container{
     display: flex;
 }
+
+.article_item p{
+    text-align: center;
+}
