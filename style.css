@@ -87,3 +87,12 @@ nav li{
 .article_item p{
     text-align: center;
 }
+
+.footer{
+    width: 100%;
+    bacground-color: yellow;
+}
+
+footer h2{
+    text-align: center;
+}
