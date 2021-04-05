@@ -88,9 +88,9 @@ nav li{
     text-align: center;
 }
 
-.footer{
+footer{
     width: 100%;
-    bacground-color: yellow;
+    bacground-color: green;
 }
 
 footer h2{
