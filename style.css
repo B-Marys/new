@@ -79,3 +79,7 @@ nav li{
 .article_item img{
     width: 99%;
 } 
+
+.article_container{
+    display: flex;
+}
