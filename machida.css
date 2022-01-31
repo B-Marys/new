@@ -5,7 +5,7 @@ header{
 }
 
 .head_container{
-    padding: 0px;
+    padding: 1000px;
     display: flex;
     justify-content: space-between;
 }
